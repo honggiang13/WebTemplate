@@ -56,7 +56,7 @@ html {
 
 /*sticky Menu*/
 .tsdemo-left{
-     width: 20%;
+     width: 40%;
      float: left;
  }
 .tsdemo-left a {
@@ -72,7 +72,7 @@ html {
     max-width: 100%;
 }
 .tsdemo-right{
-    width: 80%;
+    width: 50%;
     float: right;
 }
 
