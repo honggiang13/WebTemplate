@@ -1,0 +1,233 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust:     100%;
+}
+#ts-demo-body {
+    overflow : hidden;
+    margin: 0;
+    padding: 0;
+}
+#demo-header {
+    background: #333;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    padding: 0 20px;
+    vertical-align: middle;
+}
+.button.download {
+    background-color: #71b02f ;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 7px 18px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.button.download:hover {
+    background-color: #2a9211 ;
+}
+.tsdemo-left a,
+.tsdemo-right .select-wrap,
+.tsdemo-right .attheme-demo-form,
+.tsdemo-right .res-btn-group{
+
+    padding: 10px 0;
+}
+.res-btn-group a.active i{
+    color: #00d8b3; 
+}
+
+/*sticky Menu*/
+.tsdemo-left{
+     width: 20%;
+     float: left;
+ }
+.tsdemo-left a {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 33px;
+    position: relative;
+    z-index: 20;
+    color: #fff;
+}
+.tsdemo-left img{
+    max-width: 100%;
+}
+.tsdemo-right{
+    width: 80%;
+    float: right;
+}
+
+.attheme-demo-page .attheme-dropdown {
+    width: 230px;
+}
+.attheme-demo-page .edd_price,
+.attheme-demo-page .edd_download_purchase_form{
+    display: inline-block;
+}
+.select-wrap {
+    display: block;
+    float: left;
+    overflow: hidden;
+    width: 210px;
+    border-radius: 3px;
+    color: #fff;
+}
+#attheme-dropdown {
+    background: #242424 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0;
+    color: #eee;
+    cursor: pointer;
+    float: left;
+    height: 34px;
+    margin: 0;
+}
+#attheme-dropdown option{
+    padding: 3px 10px;
+}
+.attheme-demo-page::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.res-btn-group {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 5px;
+    float: right;
+}
+.edd-add-to-cart-label{
+    font-size: 16px;
+
+}
+.res-btn-group .button {
+    margin:0 5px;
+}
+.responsive i{
+ line-height:35px;
+}
+
+.btn-remove{
+    border-left: 1px solid #181818;
+    padding-left: 10px!important;
+}
+.remove{
+    background: #333333;
+    color: #fff!important;
+    font-size: 13px;
+    padding: 6px 15px;
+    position: relative;
+    float: left;
+}
+.attheme-demo-form .edd-submit.button.blue {
+    display: inline-block;
+    line-height: 19px;
+}
+.attheme-demo-form .edd-submit.button.blue {
+    background: #00d8b3 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0;
+    color: #fff;
+    font-size: 13px;
+    padding: 7px 12px;
+    position: relative;
+}
+.res-btn-group .button i{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+.res-btn-group .remove  i {
+    font-size: 15px!important;
+    margin-right: 5px;
+}
+.view_tabletlandscape i, .view_mobilelandscape i {
+    margin-left: 3px;
+    transform: rotate(-90deg);
+}
+.attheme-demo-form {
+    float: left;
+    margin: 0 15px;
+    color: #f88c00;
+    font-size: 1.5em;
+    width: 250px;
+}
+.attheme-demo-form .download i{
+    margin-left: 5px;
+}
+.attheme-demo-form span.edd_price{
+    line-height: 35px;
+    float: left;
+    padding: 0 15px;
+
+}
+.demo-content,.theme-demo-con {
+    margin: 0;
+    padding: 0;
+}
+.theme-demo-con {
+    background: #f6f6f6 none repeat scroll 0 0;
+    text-align: center;
+}
+.theme-demo-con iframe {
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.02);
+}
+
+@media screen and (max-width: 999px){
+    .select-wrap{
+        width: 140px;
+    }
+    .attheme-demo-page .attheme-dropdown{
+        width:160px ;
+    }
+    .attheme-demo-form{
+        width:130px
+    }
+}
+@media screen and (max-width: 767px){
+    .responsive{
+        display: none;
+    }
+    #ts-demo-body .container{
+        width: 96% !important;
+    }
+
+}
+@media screen and (max-width: 640px){
+    .res-btn-group{
+        display: none;
+    }
+    .select-wrap{
+        width: 110px;
+    }
+}
+@media screen and (max-width: 480px){
+    .select-wrap{
+        display: none;
+    }
+    .attheme-demo-form{
+        float: right;
+    }
+}
+.edd_price_options{
+    display: none;
+}
